@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme: DarkActionBar ensures the top bar is visible -->
+    <style name="Theme.MusicSathi" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+
+        <!-- Primary Brand Color: Vibrant Indigo-Blue -->
+        <item name="colorPrimary">#3F51B5</item>
+
+        <!-- Darker variant: Status bar ke liye jo thoda alag dikhe -->
+        <item name="colorPrimaryVariant">#303F9F</item>
+
+        <!-- Color of text/icons on Action Bar: Pure White -->
+        <item name="colorOnPrimary">#FFFFFF</item>
+
+        <!-- Secondary color: Accent color (Buttons ya sliders ke liye) -->
+        <item name="colorSecondary">#FF4081</item> <!-- Pinkish-red accent jo blue ke sath pop karega -->
+
+        <!-- Status Bar color setup -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+
+    </style>
+</resources>
